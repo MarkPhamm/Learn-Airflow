@@ -1,0 +1,14 @@
+[2025-03-17T01:46:58.446+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:46:58.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-17T01:46:58.493+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:46:58.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:46:58.849+0000] {processor.py:925} INFO - DAG(s) 'welcome_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:46:59.471+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:46:59.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T01:46:59.533+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:46:59.533+0000] {dag.py:4180} INFO - Setting next_dagrun for welcome_dag to 2025-03-16 23:00:00+00:00, run_after=2025-03-17 23:00:00+00:00
+[2025-03-17T01:46:59.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 1.308 seconds
+[2025-03-17T01:47:30.865+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:47:30.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2025-03-17T01:47:30.982+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:47:30.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:47:32.071+0000] {processor.py:925} INFO - DAG(s) 'welcome_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2025-03-17T01:47:32.320+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:47:32.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T01:47:32.531+0000] {logging_mixin.py:190} INFO - [2025-03-17T01:47:32.530+0000] {dag.py:4180} INFO - Setting next_dagrun for welcome_dag to 2025-03-16 23:00:00+00:00, run_after=2025-03-17 23:00:00+00:00
+[2025-03-17T01:47:33.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 2.362 seconds
