@@ -1,0 +1,25 @@
+[2025-03-17T04:32:02.918+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-17T04:32:02.963+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exchange_rate_etl.download_file manual__2025-03-17T04:31:23.449468+00:00 [queued]>
+[2025-03-17T04:32:02.993+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exchange_rate_etl.download_file manual__2025-03-17T04:31:23.449468+00:00 [queued]>
+[2025-03-17T04:32:02.995+0000] {taskinstance.py:2867} INFO - Starting attempt 2 of 3
+[2025-03-17T04:32:03.077+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): download_file> on 2025-03-17 04:31:23.449468+00:00
+[2025-03-17T04:32:03.093+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'exchange_rate_etl', 'download_file', 'manual__2025-03-17T04:31:23.449468+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/exchange_rate_pipeline.py', '--cfg-path', '/tmp/tmpe1uj1y31']
+[2025-03-17T04:32:03.100+0000] {standard_task_runner.py:105} INFO - Job 58: Subtask download_file
+[2025-03-17T04:32:03.102+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=903) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-17T04:32:03.104+0000] {standard_task_runner.py:72} INFO - Started process 921 to run task
+[2025-03-17T04:32:03.279+0000] {task_command.py:467} INFO - Running <TaskInstance: exchange_rate_etl.download_file manual__2025-03-17T04:31:23.449468+00:00 [running]> on host 8ae3f6e178cd
+[2025-03-17T04:32:03.507+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='exchange_rate_etl' AIRFLOW_CTX_TASK_ID='download_file' AIRFLOW_CTX_EXECUTION_DATE='2025-03-17T04:31:23.449468+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-17T04:31:23.449468+00:00'
+[2025-03-17T04:32:03.509+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-17T04:32:03.537+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-03-17T04:32:03.539+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p /tmp && curl -L -f -o /tmp/cd_population.csv http://personal.tcu.edu/kylewalker/data/cd_population.csv']
+[2025-03-17T04:32:03.553+0000] {subprocess.py:99} INFO - Output:
+[2025-03-17T04:32:03.571+0000] {subprocess.py:106} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2025-03-17T04:32:03.572+0000] {subprocess.py:106} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2025-03-17T04:32:03.976+0000] {subprocess.py:106} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+[2025-03-17T04:32:04.213+0000] {subprocess.py:106} INFO - 100   227  100   227    0     0    353      0 --:--:-- --:--:-- --:--:--   353
+[2025-03-17T04:32:04.217+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-03-17T04:32:04.295+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-17T04:32:04.296+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=exchange_rate_etl, task_id=download_file, run_id=manual__2025-03-17T04:31:23.449468+00:00, execution_date=20250317T043123, start_date=20250317T043202, end_date=20250317T043204
+[2025-03-17T04:32:04.407+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-17T04:32:04.491+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-17T04:32:04.518+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

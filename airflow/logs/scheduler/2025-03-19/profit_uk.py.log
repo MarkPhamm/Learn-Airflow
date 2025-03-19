@@ -1,0 +1,42 @@
+[2025-03-19T05:22:41.223+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:22:41.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/profit_uk.py for tasks to queue
+[2025-03-19T05:22:41.230+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:22:41.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:22:41.346+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:22:41.324+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/profit_uk.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/profit_uk.py", line 11, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T05:22:41.355+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:22:41.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/profit_uk.py took 0.234 seconds
+[2025-03-19T05:23:12.219+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:12.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/profit_uk.py for tasks to queue
+[2025-03-19T05:23:12.229+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:23:12.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:12.289+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:23:12.277+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/profit_uk.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/profit_uk.py", line 11, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T05:23:12.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:12.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/profit_uk.py took 0.160 seconds
+[2025-03-19T05:23:43.523+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:43.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/profit_uk.py for tasks to queue
+[2025-03-19T05:23:43.531+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:23:43.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:43.589+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:23:43.576+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/profit_uk.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/profit_uk.py", line 11, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T05:23:43.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/profit_uk.py
+[2025-03-19T05:23:43.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/profit_uk.py took 0.156 seconds

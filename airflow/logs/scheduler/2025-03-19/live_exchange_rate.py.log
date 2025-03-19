@@ -1,0 +1,309 @@
+[2025-03-19T04:48:12.953+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:48:12.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:48:12.961+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:48:12.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:48:13.099+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:48:13.078+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/live_exchange_rate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/live_exchange_rate.py", line 50, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T04:48:13.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:48:13.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.275 seconds
+[2025-03-19T04:49:02.509+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:02.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:49:02.515+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:49:02.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:02.552+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:49:02.544+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/live_exchange_rate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/live_exchange_rate.py", line 50, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T04:49:02.556+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:02.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.123 seconds
+[2025-03-19T04:49:33.097+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:33.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:49:33.103+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:49:33.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:33.140+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:49:33.133+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/live_exchange_rate.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/live_exchange_rate.py", line 50, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-19T04:49:33.145+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:49:33.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.115 seconds
+[2025-03-19T04:50:00.594+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:00.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:50:00.600+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:00.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:00.672+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:00.927+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:00.925+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:live_exchange_rates
+[2025-03-19T04:50:00.992+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:00.992+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:live_exchange_rates
+[2025-03-19T04:50:01.047+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.047+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:live_exchange_rates
+[2025-03-19T04:50:01.145+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.144+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:live_exchange_rates
+[2025-03-19T04:50:01.217+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.217+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:live_exchange_rates
+[2025-03-19T04:50:01.270+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.270+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:live_exchange_rates
+[2025-03-19T04:50:01.317+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.317+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:live_exchange_rates
+[2025-03-19T04:50:01.318+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:50:01.346+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.346+0000] {dag.py:3262} INFO - Creating ORM DAG for live_exchange_rates
+[2025-03-19T04:50:01.364+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:01.363+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:50:01.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.905 seconds
+[2025-03-19T04:50:31.999+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:32.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:50:32.003+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:32.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:32.042+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:50:32.078+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:32.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:50:32.109+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:50:32.109+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:50:32.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.217 seconds
+[2025-03-19T04:51:02.883+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:02.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:51:02.891+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:02.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:02.932+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:02.987+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:02.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:51:03.040+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:03.039+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:51:03.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.291 seconds
+[2025-03-19T04:51:33.669+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:33.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:51:33.675+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:33.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:33.717+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:51:33.753+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:33.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:51:33.790+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:51:33.790+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:51:33.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.223 seconds
+[2025-03-19T04:52:28.228+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:28.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:52:28.235+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:28.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:28.300+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:28.377+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:28.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:52:28.429+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:28.429+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:52:28.588+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.372 seconds
+[2025-03-19T04:52:59.328+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:59.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:52:59.339+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:59.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:59.416+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:52:59.481+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:59.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:52:59.536+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:52:59.535+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:52:59.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.362 seconds
+[2025-03-19T04:53:30.511+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:53:30.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:53:30.517+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:53:30.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:53:30.638+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:53:30.683+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:53:30.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:53:30.734+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:53:30.734+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:53:30.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.354 seconds
+[2025-03-19T04:54:01.728+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:01.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:54:01.734+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:01.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:01.773+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:01.831+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:01.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:54:01.893+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:01.892+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:54:02.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.296 seconds
+[2025-03-19T04:54:33.197+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:33.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:54:33.203+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:33.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:33.250+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:54:33.307+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:33.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:54:33.378+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:54:33.378+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:54:33.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.295 seconds
+[2025-03-19T04:55:04.604+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:04.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:55:04.608+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:04.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:04.651+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:04.699+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:04.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:55:04.742+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:04.742+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:55:04.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.237 seconds
+[2025-03-19T04:55:35.256+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:35.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:55:35.262+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:35.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:35.310+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:55:35.382+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:35.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:55:35.418+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:55:35.418+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:55:35.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.240 seconds
+[2025-03-19T04:56:06.580+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:06.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:56:06.586+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:06.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:06.628+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:06.680+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:06.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:56:06.734+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:06.734+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:56:06.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.286 seconds
+[2025-03-19T04:56:38.107+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:38.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:56:38.113+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:38.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:38.168+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:56:38.241+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:38.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:56:38.275+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:56:38.275+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:56:38.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.263 seconds
+[2025-03-19T04:57:08.523+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:08.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:57:08.530+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:08.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:08.574+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:08.609+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:08.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:57:08.649+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:08.649+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:57:08.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.229 seconds
+[2025-03-19T04:57:40.309+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:40.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:57:40.313+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:40.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:40.363+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:57:40.411+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:40.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:57:40.463+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:57:40.463+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:57:40.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.289 seconds
+[2025-03-19T04:58:11.783+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:11.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:58:11.786+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:11.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:11.841+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:11.879+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:11.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:58:11.913+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:11.913+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:58:12.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.235 seconds
+[2025-03-19T04:58:42.109+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:42.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:58:42.115+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:42.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:42.166+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:58:42.229+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:42.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:58:42.270+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:58:42.270+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:58:42.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.272 seconds
+[2025-03-19T04:59:13.940+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:13.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:59:13.946+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:13.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:14.007+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:14.085+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:14.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:59:14.134+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:14.133+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:59:14.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.308 seconds
+[2025-03-19T04:59:45.641+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:45.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T04:59:45.648+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:45.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:45.707+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T04:59:45.781+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:45.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T04:59:45.820+0000] {logging_mixin.py:190} INFO - [2025-03-19T04:59:45.820+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T04:59:45.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.271 seconds
+[2025-03-19T05:00:17.165+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:17.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:00:17.169+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:17.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:17.222+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:17.272+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:17.272+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:00:17.310+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:17.309+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:00:17.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.245 seconds
+[2025-03-19T05:00:47.519+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:47.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:00:47.524+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:47.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:47.570+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:00:47.618+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:47.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:00:47.653+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:00:47.653+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:00:47.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.243 seconds
+[2025-03-19T05:01:18.236+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:01:18.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:01:18.241+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:01:18.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:01:18.280+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:01:18.314+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:01:18.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:01:18.342+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:01:18.342+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:01:18.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.201 seconds
+[2025-03-19T05:02:07.845+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:07.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:02:07.850+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:07.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:07.902+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:07.992+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:07.992+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:02:08.030+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:08.030+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:02:08.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.290 seconds
+[2025-03-19T05:02:38.438+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:38.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:02:38.443+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:38.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:38.488+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:02:38.546+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:38.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:02:38.583+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:02:38.583+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:02:38.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.253 seconds
+[2025-03-19T05:03:09.514+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:09.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:03:09.519+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:09.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:09.577+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:09.624+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:09.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:03:09.668+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:09.668+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:03:09.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.266 seconds
+[2025-03-19T05:03:39.918+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:39.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:03:39.924+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:39.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:39.984+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:03:40.099+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:40.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:03:40.139+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:03:40.139+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:03:40.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.335 seconds
+[2025-03-19T05:04:10.780+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:10.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:04:10.785+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:10.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:10.838+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:10.885+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:10.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:04:10.949+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:10.949+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:04:11.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.291 seconds
+[2025-03-19T05:04:42.181+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:42.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:04:42.187+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:42.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:42.230+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:04:42.278+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:42.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:04:42.313+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:04:42.313+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:04:42.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.253 seconds
+[2025-03-19T05:05:12.751+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:12.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:05:12.758+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:12.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:12.805+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:12.869+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:12.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:05:12.928+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:12.927+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:05:13.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.289 seconds
+[2025-03-19T05:05:43.744+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:43.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:05:43.750+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:43.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:43.790+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:05:43.841+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:43.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:05:43.904+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:05:43.903+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:05:44.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.295 seconds
+[2025-03-19T05:06:14.971+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:14.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:06:14.978+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:14.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:15.027+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:15.086+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:15.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:06:15.140+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:15.139+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:06:15.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.274 seconds
+[2025-03-19T05:06:45.642+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:45.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:06:45.646+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:45.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:45.685+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:06:45.723+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:45.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:06:45.767+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:06:45.767+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:06:45.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.242 seconds
+[2025-03-19T05:07:16.501+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:16.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:07:16.506+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:16.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:16.550+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:16.596+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:16.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:07:16.631+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:16.630+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:07:16.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.227 seconds
+[2025-03-19T05:07:46.854+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:46.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:07:46.861+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:46.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:46.917+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:07:46.960+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:46.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:07:47.003+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:07:47.002+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:07:47.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.255 seconds
+[2025-03-19T05:08:22.398+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:22.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:08:22.404+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:22.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:22.491+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:22.546+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:22.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:08:22.590+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:22.589+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:08:22.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.377 seconds
+[2025-03-19T05:08:53.481+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:53.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:08:53.488+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:53.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:53.550+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:08:53.603+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:53.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:08:53.652+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:08:53.652+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:08:53.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.326 seconds
+[2025-03-19T05:09:24.146+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:09:24.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/live_exchange_rate.py for tasks to queue
+[2025-03-19T05:09:24.151+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:09:24.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:09:24.205+0000] {processor.py:925} INFO - DAG(s) 'live_exchange_rates' retrieved from /opt/airflow/dags/live_exchange_rate.py
+[2025-03-19T05:09:24.245+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:09:24.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-19T05:09:24.273+0000] {logging_mixin.py:190} INFO - [2025-03-19T05:09:24.273+0000] {dag.py:4180} INFO - Setting next_dagrun for live_exchange_rates to 2025-03-18 21:00:00+00:00, run_after=2025-03-19 21:00:00+00:00
+[2025-03-19T05:09:24.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/live_exchange_rate.py took 0.239 seconds

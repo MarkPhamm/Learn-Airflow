@@ -1,0 +1,295 @@
+[2025-03-17T23:25:24.272+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:25:24.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:25:24.279+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:25:24.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:25:24.336+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:25:24.329+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2025-03-17T23:25:24.340+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:25:24.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.133 seconds
+[2025-03-17T23:26:13.153+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:13.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:26:13.160+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:26:13.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:13.224+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:26:13.207+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2025-03-17T23:26:13.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:13.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.204 seconds
+[2025-03-17T23:26:44.353+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:44.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:26:44.359+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:26:44.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:44.400+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:26:44.389+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2025-03-17T23:26:44.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:26:44.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.119 seconds
+[2025-03-17T23:27:15.408+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:27:15.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:27:15.419+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:27:15.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:27:15.472+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:27:15.460+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/git_repo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/git_repo_dag.py", line 3, in <module>
+    from airflow.providers.github.operators.github import GithubOperator
+ModuleNotFoundError: No module named 'airflow.providers.github'
+[2025-03-17T23:27:15.476+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:27:15.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.160 seconds
+[2025-03-17T23:28:55.152+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:28:55.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:28:55.159+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:28:55.203+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:28:55.589+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.588+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:git_repo_dag
+[2025-03-17T23:28:55.644+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.643+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:git_repo_dag
+[2025-03-17T23:28:55.693+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.692+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:git_repo_dag
+[2025-03-17T23:28:55.776+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.775+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:git_repo_dag
+[2025-03-17T23:28:55.827+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.826+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:git_repo_dag
+[2025-03-17T23:28:55.876+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.875+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:git_repo_dag
+[2025-03-17T23:28:55.929+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.928+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:git_repo_dag
+[2025-03-17T23:28:55.930+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:28:55.959+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.958+0000] {dag.py:3262} INFO - Creating ORM DAG for git_repo_dag
+[2025-03-17T23:28:55.977+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:28:55.977+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:28:56.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.972 seconds
+[2025-03-17T23:29:27.080+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:27.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:29:27.089+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:27.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:27.158+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:27.219+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:27.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:29:27.269+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:27.269+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:29:27.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.292 seconds
+[2025-03-17T23:29:57.773+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:57.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:29:57.783+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:57.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:57.848+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:29:57.911+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:57.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:29:57.959+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:29:57.959+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:29:58.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.307 seconds
+[2025-03-17T23:30:29.441+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:30:29.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:30:29.447+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:30:29.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:30:29.500+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:30:29.692+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:30:29.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:30:29.740+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:30:29.740+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:30:29.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.557 seconds
+[2025-03-17T23:31:01.707+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:01.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:31:01.727+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:01.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:01.790+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:01.873+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:01.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:31:01.941+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:01.941+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:31:02.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.377 seconds
+[2025-03-17T23:31:33.107+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:33.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:31:33.117+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:33.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:33.202+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:31:33.304+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:33.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:31:33.362+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:31:33.362+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:31:33.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.465 seconds
+[2025-03-17T23:32:04.371+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:04.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:32:04.378+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:04.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:04.438+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:04.568+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:04.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:32:04.625+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:04.624+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:32:04.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.455 seconds
+[2025-03-17T23:32:35.216+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:35.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:32:35.225+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:35.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:35.331+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:32:35.419+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:35.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:32:35.494+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:32:35.494+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:32:35.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.416 seconds
+[2025-03-17T23:33:06.443+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:06.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:33:06.471+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:06.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:06.525+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:06.577+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:06.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:33:06.620+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:06.620+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:33:06.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.308 seconds
+[2025-03-17T23:33:37.304+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:37.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:33:37.313+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:37.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:37.366+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:33:37.434+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:37.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:33:37.505+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:33:37.504+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:33:37.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.350 seconds
+[2025-03-17T23:34:08.926+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:08.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:34:08.938+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:08.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:08.991+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:09.137+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:09.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:34:09.195+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:09.195+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:34:09.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.466 seconds
+[2025-03-17T23:34:40.059+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:40.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:34:40.071+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:40.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:40.106+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:34:40.154+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:40.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:34:40.195+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:34:40.192+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:34:40.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.325 seconds
+[2025-03-17T23:35:11.477+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:11.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:35:11.485+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:11.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:11.560+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:11.660+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:11.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:35:11.727+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:11.726+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:35:11.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.427 seconds
+[2025-03-17T23:35:42.636+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:42.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:35:42.644+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:42.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:42.738+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:35:42.800+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:42.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:35:42.851+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:35:42.851+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:35:43.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.382 seconds
+[2025-03-17T23:36:13.546+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:13.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:36:13.553+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:13.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:13.595+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:13.647+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:13.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:36:13.703+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:13.702+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:36:13.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.272 seconds
+[2025-03-17T23:36:44.435+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:44.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:36:44.443+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:44.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:44.519+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:36:44.581+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:44.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:36:44.636+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:36:44.635+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:36:44.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.357 seconds
+[2025-03-17T23:37:15.255+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:15.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:37:15.260+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:15.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:15.293+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:15.346+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:15.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:37:15.411+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:15.411+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:37:15.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.328 seconds
+[2025-03-17T23:37:45.718+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:45.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:37:45.729+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:45.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:45.768+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:37:45.819+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:45.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:37:45.873+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:37:45.872+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:37:45.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.287 seconds
+[2025-03-17T23:38:16.463+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:16.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:38:16.471+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:16.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:16.529+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:16.589+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:16.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:38:16.648+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:16.647+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:38:16.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.312 seconds
+[2025-03-17T23:38:47.279+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:47.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:38:47.286+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:47.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:47.348+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:38:47.428+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:47.427+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:38:47.479+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:38:47.479+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:38:47.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.327 seconds
+[2025-03-17T23:41:25.391+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:25.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:41:25.402+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:25.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:25.466+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:25.566+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:25.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:41:25.847+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:25.847+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:41:26.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 1.419 seconds
+[2025-03-17T23:41:58.352+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:58.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:41:58.382+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:58.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:58.503+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:41:58.631+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:58.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:41:58.748+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:41:58.747+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:41:59.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.735 seconds
+[2025-03-17T23:42:30.096+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:42:30.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:42:30.104+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:42:30.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:42:30.148+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:42:30.229+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:42:30.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:42:30.303+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:42:30.302+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:42:30.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.392 seconds
+[2025-03-17T23:43:01.724+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:01.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:43:01.744+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:01.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:01.852+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:01.983+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:01.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:43:02.077+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:02.076+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:43:02.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.677 seconds
+[2025-03-17T23:43:33.655+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:33.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:43:33.663+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:33.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:33.721+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:43:33.782+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:33.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:43:33.837+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:43:33.836+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:43:34.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.367 seconds
+[2025-03-17T23:44:04.775+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:04.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:44:04.783+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:04.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:04.841+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:04.916+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:04.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:44:04.980+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:04.980+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:44:05.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.376 seconds
+[2025-03-17T23:44:35.554+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:35.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:44:35.562+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:35.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:35.624+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:44:35.707+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:35.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:44:35.768+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:44:35.768+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:44:35.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.396 seconds
+[2025-03-17T23:45:06.813+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:06.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:45:06.821+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:06.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:06.876+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:06.948+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:06.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:45:07.022+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:07.021+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:45:07.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.378 seconds
+[2025-03-17T23:45:38.573+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:38.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:45:38.581+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:38.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:38.651+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:45:38.729+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:38.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:45:38.791+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:45:38.790+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:45:38.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.329 seconds
+[2025-03-17T23:46:09.288+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:09.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:46:09.295+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:09.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:09.348+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:09.410+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:09.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:46:09.468+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:09.468+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:46:09.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.284 seconds
+[2025-03-17T23:46:40.611+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:40.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:46:40.618+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:40.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:40.701+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:46:40.792+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:40.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:46:40.850+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:46:40.849+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:46:40.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.360 seconds
+[2025-03-17T23:47:11.325+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:11.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:47:11.331+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:11.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:11.409+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:11.492+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:11.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:47:11.559+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:11.559+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:47:11.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.455 seconds
+[2025-03-17T23:47:42.130+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:42.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/git_repo_dag.py for tasks to queue
+[2025-03-17T23:47:42.180+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:42.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:42.246+0000] {processor.py:925} INFO - DAG(s) 'git_repo_dag' retrieved from /opt/airflow/dags/git_repo_dag.py
+[2025-03-17T23:47:42.300+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:42.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T23:47:42.345+0000] {logging_mixin.py:190} INFO - [2025-03-17T23:47:42.344+0000] {dag.py:4180} INFO - Setting next_dagrun for git_repo_dag to 2025-03-16 21:00:00+00:00, run_after=2025-03-17 21:00:00+00:00
+[2025-03-17T23:47:42.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/git_repo_dag.py took 0.361 seconds
