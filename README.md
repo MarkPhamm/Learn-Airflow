@@ -90,12 +90,25 @@ To create variables, navigate to the admin panel and select "Create Variables."
 * **Dynamic DAGs**: Useful for creating DAGs that can adapt to specific dates or conditions.
 
 # Connection
-Connections are configuration objects, they store details required to connect to a external systems. Set of parameters and connection id
+Connections in Apache Airflow are essential configuration objects that store the necessary details required to establish connections to external systems, such as databases, cloud services, and APIs. Each connection is defined by a set of parameters, including the connection ID, host, schema, login credentials, and any additional options specific to the service being connected to. 
 
-Admin -> connection -> create new types of connection to Redshift, Snowflake, then enter password, test it pushing it into dag
+To create a new connection, navigate to the Admin panel, select the "Connections" option, and then click on "Create." Here, you can define various types of connections, such as those for Amazon Redshift or Snowflake. You will need to enter the required information, including the connection ID, host address, username, password, and any other relevant parameters. After entering the details, it is crucial to test the connection to ensure that it can successfully communicate with the external system before integrating it into your DAG.
 
-## Benefit of connections
-* reusability and maintainabilty
-* environment specific
-* implementing changes made easy
-* Security
+## Benefits of Connections
+* **Reusability and Maintainability**: Connections can be reused across multiple DAGs and tasks, reducing redundancy and simplifying maintenance. If a connection's details change, you only need to update it in one place.
+* **Environment Specificity**: Connections can be tailored for different environments (e.g., development, testing, production), allowing for seamless transitions and configurations without modifying the DAG code.
+* **Ease of Implementing Changes**: Modifications to connection parameters can be made easily through the Airflow UI, enabling quick adjustments without the need to alter the underlying codebase.
+* **Security**: Connections help manage sensitive information, such as passwords and API keys, securely. Airflow provides mechanisms to encrypt these details, ensuring that they are not exposed in the code or logs.
+
+# Sensors
+Airflow sensors are a specialized type of operator designed to monitor specific conditions until they are met.
+
+These sensors periodically check for the specified condition. Once the condition is satisfied, the associated task is marked as successful, allowing downstream tasks to proceed. Sensors enhance the event-driven nature of your DAGs, making them suitable for scenarios such as waiting for a file to be created, a database table to be updated, or an external API to become available.
+
+* **poke_interval:** The interval (in seconds) at which the sensor checks for the specified condition.
+* **mode:** Determines the execution mode of the sensor, such as "poke" or "reschedule".
+* **timeout:** The maximum time (in seconds) the sensor will wait for the condition to be met before failing.
+* **soft_fail:** If set to true, the task will not fail the DAG if the sensor times out.
+
+Example: Below is a simple DAG with two tasks. The first task employs the S3KeySensor, which waits for a file to appear in an AWS S3 bucket. Once the file is detected, the subsequent task loads the file into a Snowflake table.
+

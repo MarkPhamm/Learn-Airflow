@@ -1,0 +1,255 @@
+[2025-03-20T01:26:47.933+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:26:47.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:26:47.938+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:26:47.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:26:47.977+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:26:47.974+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:26:47.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:26:48.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.120 seconds
+[2025-03-20T01:27:19.095+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:19.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:27:19.110+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:19.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:19.190+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:19.188+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:27:19.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:19.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.196 seconds
+[2025-03-20T01:27:49.903+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:49.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:27:49.911+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:49.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:49.969+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:49.968+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:27:49.972+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:27:50.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.182 seconds
+[2025-03-20T01:28:21.009+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:21.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:28:21.016+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:21.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:21.052+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:21.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:28:21.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:21.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.117 seconds
+[2025-03-20T01:28:52.139+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:52.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:28:52.149+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:52.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:52.209+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:52.207+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:28:52.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:28:52.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.158 seconds
+[2025-03-20T01:29:22.524+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:22.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:29:22.529+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:22.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:22.556+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:22.555+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:29:22.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:22.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.301 seconds
+[2025-03-20T01:29:53.710+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:53.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:29:53.717+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:53.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:53.761+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:53.758+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:29:53.762+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:29:53.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.158 seconds
+[2025-03-20T01:30:24.581+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:24.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:30:24.587+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:24.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:24.640+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:24.639+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:30:24.642+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:24.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.162 seconds
+[2025-03-20T01:30:55.939+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:55.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:30:55.955+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:55.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:56.047+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:56.045+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:30:56.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:30:56.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.217 seconds
+[2025-03-20T01:31:26.390+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:26.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:31:26.396+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:26.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:26.467+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:26.465+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:31:26.470+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:26.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.199 seconds
+[2025-03-20T01:31:57.913+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:57.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:31:57.923+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:57.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:57.956+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:57.953+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:31:57.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:31:58.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.123 seconds
+[2025-03-20T01:32:28.520+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:28.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:32:28.533+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:28.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:28.576+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:28.574+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:32:28.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:28.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.165 seconds
+[2025-03-20T01:32:59.085+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:59.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:32:59.091+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:59.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:59.133+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:59.131+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:32:59.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:32:59.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.131 seconds
+[2025-03-20T01:33:29.634+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:33:29.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:33:29.642+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:29.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:33:29.681+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:29.680+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:33:29.683+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:33:29.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.135 seconds
+[2025-03-20T01:34:00.815+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/daily_run.py
+[2025-03-20T01:34:00.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_run.py for tasks to queue
+[2025-03-20T01:34:00.820+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:34:00.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:34:00.850+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:34:00.848+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/daily_run.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/daily_run.py", line 8
+    subprocess.run(["python3", "C:\Users\hamin\Desktop\British-Airway\etl\scripts.py"], check=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2025-03-20T01:34:00.851+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/daily_run.py
+[2025-03-20T01:34:00.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_run.py took 0.103 seconds

@@ -1,0 +1,183 @@
+[2025-03-20T01:20:03.401+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:03.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:20:03.405+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:03.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:03.458+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:03.759+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:03.757+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:s3_to_snowflake_dag
+[2025-03-20T01:20:03.815+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:03.815+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:s3_to_snowflake_dag
+[2025-03-20T01:20:03.868+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:03.868+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:s3_to_snowflake_dag
+[2025-03-20T01:20:03.946+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:03.945+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:s3_to_snowflake_dag
+[2025-03-20T01:20:04.003+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.003+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:s3_to_snowflake_dag
+[2025-03-20T01:20:04.063+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.063+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:s3_to_snowflake_dag
+[2025-03-20T01:20:04.117+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.117+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:s3_to_snowflake_dag
+[2025-03-20T01:20:04.119+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:20:04.152+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.152+0000] {dag.py:3262} INFO - Creating ORM DAG for s3_to_snowflake_dag
+[2025-03-20T01:20:04.176+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:04.174+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:20:04.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.889 seconds
+[2025-03-20T01:20:35.601+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:35.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:20:35.610+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:35.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:35.698+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:20:35.801+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:35.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:20:35.871+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:20:35.871+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:20:36.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.442 seconds
+[2025-03-20T01:21:06.281+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:06.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:21:06.286+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:06.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:06.339+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:06.392+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:06.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:21:06.432+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:06.432+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:21:06.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.292 seconds
+[2025-03-20T01:21:37.674+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:37.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:21:37.679+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:37.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:37.726+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:21:37.783+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:37.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:21:37.836+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:21:37.835+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:21:37.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.275 seconds
+[2025-03-20T01:22:08.324+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:08.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:22:08.329+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:08.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:08.374+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:08.435+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:08.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:22:08.503+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:08.503+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:22:08.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.289 seconds
+[2025-03-20T01:22:39.173+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:39.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:22:39.176+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:39.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:39.230+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:22:39.281+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:39.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:22:39.342+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:22:39.342+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:22:39.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.336 seconds
+[2025-03-20T01:23:09.931+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:09.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:23:09.935+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:09.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:10.004+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:10.093+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:10.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:23:10.202+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:10.201+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:23:10.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.388 seconds
+[2025-03-20T01:23:41.732+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:41.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:23:41.740+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:41.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:41.814+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:23:41.872+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:41.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:23:41.936+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:23:41.935+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:23:42.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.315 seconds
+[2025-03-20T01:24:12.450+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:12.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:24:12.454+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:12.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:12.517+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:12.586+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:12.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:24:12.673+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:12.672+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:24:12.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.428 seconds
+[2025-03-20T01:24:43.556+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:43.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:24:43.562+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:43.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:43.623+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:24:43.694+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:43.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:24:43.752+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:24:43.752+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:24:43.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.315 seconds
+[2025-03-20T01:26:51.195+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:26:51.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:26:51.204+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:26:51.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:26:51.256+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:26:51.324+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:26:51.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:26:51.362+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:26:51.362+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:26:51.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.269 seconds
+[2025-03-20T01:27:22.119+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:22.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:27:22.131+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:22.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:22.191+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:22.245+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:22.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:27:22.303+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:22.303+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:27:22.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.317 seconds
+[2025-03-20T01:27:53.102+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:53.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:27:53.110+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:53.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:53.201+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:27:53.272+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:53.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:27:53.333+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:27:53.333+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:27:53.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.352 seconds
+[2025-03-20T01:28:23.654+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:23.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:28:23.669+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:23.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:23.714+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:23.766+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:23.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:28:23.809+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:23.808+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:28:23.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.257 seconds
+[2025-03-20T01:28:54.719+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:54.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:28:54.728+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:54.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:54.778+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:28:54.845+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:54.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:28:54.916+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:28:54.916+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:28:55.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.355 seconds
+[2025-03-20T01:29:25.425+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:25.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:29:25.430+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:25.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:25.482+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:25.541+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:25.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:29:25.590+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:25.589+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:29:25.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.292 seconds
+[2025-03-20T01:29:56.358+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:56.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:29:56.365+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:56.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:56.406+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:29:56.451+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:56.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:29:56.496+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:29:56.495+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:29:56.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.243 seconds
+[2025-03-20T01:30:27.345+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:27.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:30:27.352+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:27.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:27.411+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:27.478+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:27.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:30:27.538+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:27.538+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:30:27.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.348 seconds
+[2025-03-20T01:30:58.783+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:58.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:30:58.789+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:58.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:58.863+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:30:58.933+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:58.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:30:59.010+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:30:59.009+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:30:59.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.403 seconds
+[2025-03-20T01:31:29.368+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:31:29.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:31:29.374+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:29.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:31:29.430+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:31:29.496+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:29.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:31:29.564+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:31:29.564+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:31:29.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.330 seconds
+[2025-03-20T01:32:00.510+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:00.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:32:00.521+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:00.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:00.575+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:00.652+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:00.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:32:00.710+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:00.710+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:32:00.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.311 seconds
+[2025-03-20T01:32:31.190+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:31.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:32:31.197+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:31.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:31.241+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:32:31.290+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:31.289+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:32:31.340+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:32:31.340+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:32:31.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.271 seconds
+[2025-03-20T01:33:01.600+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:01.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:33:01.605+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:01.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:01.644+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:01.690+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:01.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:33:01.742+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:01.742+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:33:01.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.245 seconds
+[2025-03-20T01:33:32.258+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:32.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:33:32.264+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:32.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:32.301+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:33:32.342+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:32.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:33:32.383+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:33:32.383+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:33:32.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.230 seconds
+[2025-03-20T01:34:03.628+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/4sensors.py
+[2025-03-20T01:34:03.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/4sensors.py for tasks to queue
+[2025-03-20T01:34:03.640+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:34:03.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:34:03.680+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/4sensors.py
+[2025-03-20T01:34:03.738+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:34:03.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T01:34:03.781+0000] {logging_mixin.py:190} INFO - [2025-03-20T01:34:03.780+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-19 23:00:00+00:00, run_after=2025-03-20 23:00:00+00:00
+[2025-03-20T01:34:03.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/4sensors.py took 0.267 seconds

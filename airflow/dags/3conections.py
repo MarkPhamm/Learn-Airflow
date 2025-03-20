@@ -8,7 +8,7 @@
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.email_operator import EmailOperator
-from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 
 
 # Define the DAG
@@ -20,10 +20,10 @@ dag = DAG(
 )
 
 # Define the Task
-load_table = SnowflakeOperator(
+load_table = SQLExecuteQueryOperator(
     task_id='load_table',
     sql='./sql/profit_uk.sql',
-    snowflake_conn_id='snowflake_conn_id',
+    conn_id='snowflake_conn_id',
     dag=dag
 )
 
