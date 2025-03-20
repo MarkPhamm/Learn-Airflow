@@ -13,7 +13,7 @@ from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 
 # Define the DAG
 dag = DAG(
-    'load_profit_uk',
+    'connections_demo',
     default_args={'start_date': days_ago(1)},
     schedule_interval='0 21 * * *',
     catchup=False

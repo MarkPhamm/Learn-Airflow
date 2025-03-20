@@ -20,7 +20,7 @@ def print_random_quote():
         print(f"There's no quote today")
 
 dag = DAG(
-    'welcome_dag',
+    'tasks_demo',
     default_args={'start_date': days_ago(1)},
     schedule_interval='0 23 * * *',
     catchup=False

@@ -4,7 +4,7 @@ from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 from airflow.providers.snowflake.transfers.copy_into_snowflake import CopyFromExternalStageToSnowflakeOperator
 
 dag = DAG(
-    'sensors_demo',
+    's3_to_snowflake_dag',
     default_args={'start_date': days_ago(1)},
     schedule_interval='0 23 * * *',
     catchup=False
@@ -16,19 +16,12 @@ wait_for_file = S3KeySensor(
     bucket_name='sleekdata',
     bucket_key='oms/employee_details.csv',
     aws_conn_id='aws_conn',
-    poke_interval=60 * 10,
-    mode="reschedule",
+    poke_interval=10,
     timeout= 60 * 60 * 5,
     soft_fail=True,
+    deferrable = True,
     dag=dag
 )
-
-# Parameter       | Default Value              #
-# ---------------------------------------------#
-# poke_interval   | 60 Seconds                 #
-# mode            | poke                       #
-# timeout         | 7 days (60 * 60 * 24 * 7)  #
-# soft_fail       | False                      #
 
 # Load the file from S3 to Snowflake
 load_table = CopyFromExternalStageToSnowflakeOperator(
@@ -42,4 +35,4 @@ load_table = CopyFromExternalStageToSnowflakeOperator(
 )
 
 # Set the dependencies
-wait_for_file >> load_table
+wait_for_file >> load_table 

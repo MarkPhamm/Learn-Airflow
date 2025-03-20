@@ -110,5 +110,14 @@ These sensors periodically check for the specified condition. Once the condition
 * **timeout:** The maximum time (in seconds) the sensor will wait for the condition to be met before failing.
 * **soft_fail:** If set to true, the task will not fail the DAG if the sensor times out.
 
-Example: Below is a simple DAG with two tasks. The first task employs the S3KeySensor, which waits for a file to appear in an AWS S3 bucket. Once the file is detected, the subsequent task loads the file into a Snowflake table.
+Example: The first task employs the S3KeySensor, which waits for a file to appear in an AWS S3 bucket. Once the file is detected, the subsequent task loads the file into a Snowflake table.
 
+# Deferrable Operators & Triggers
+By default, sensors work in 'poke' mode, which worker slot continuously allocated, even if the task is inactive or in sleep mode. Schedule allow worker slot at fixed interval. More worker slot means higher cost
+
+**`Deferrable operators`** are designed to suspend their execution and completely free up the worker slot when they need to wait for a condition to be met. While in a suspended or deferred state, they do not occupy a worker slot, allowing for more efficient resource utilization. For instance, if you have 100 sensors, each would typically occupy a worker slot, leading to a one-to-one mapping. However, with deferrable operators, a single trigger can manage multiple sensors asynchronously, efficiently handling up to 100 sensors simultaneously without consuming individual worker slots for each one.
+
+# Trigger vs Sensors
+* **Sensors** are a type of operator that continuously check for a certain condition to be met before allowing downstream tasks to proceed. They are typically used for scenarios like waiting for a file to appear in a specific location, a database record to be updated, or an external API to become available. Sensors operate in 'poke' mode by default, which means they periodically check the condition at defined intervals (poke_interval) until the condition is satisfied or a timeout occurs. This can lead to inefficient resource usage, as each sensor occupies a worker slot while it is active.
+
+* **Triggers**, on the other hand, are part of the deferrable operators in Airflow. They allow tasks to suspend their execution and free up the worker slot while waiting for a condition to be met. This is particularly useful for optimizing resource utilization, as it enables a single trigger to manage multiple conditions asynchronously without consuming individual worker slots for each one. When the condition is met, the trigger wakes up the task, allowing it to continue execution.
