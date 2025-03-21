@@ -121,3 +121,88 @@ By default, sensors work in 'poke' mode, which worker slot continuously allocate
 * **Sensors** are a type of operator that continuously check for a certain condition to be met before allowing downstream tasks to proceed. They are typically used for scenarios like waiting for a file to appear in a specific location, a database record to be updated, or an external API to become available. Sensors operate in 'poke' mode by default, which means they periodically check the condition at defined intervals (poke_interval) until the condition is satisfied or a timeout occurs. This can lead to inefficient resource usage, as each sensor occupies a worker slot while it is active.
 
 * **Triggers**, on the other hand, are part of the deferrable operators in Airflow. They allow tasks to suspend their execution and free up the worker slot while waiting for a condition to be met. This is particularly useful for optimizing resource utilization, as it enables a single trigger to manage multiple conditions asynchronously without consuming individual worker slots for each one. When the condition is met, the trigger wakes up the task, allowing it to continue execution.
+
+# Xcom
+# XCom in Apache Airflow
+
+## Overview
+**XCom (Cross-Communication)** is a feature in Apache Airflow that allows tasks to exchange data with each other. This capability is crucial in workflows where the output of one task needs to be used as the input for another. XComs are stored in Airflow's metadata database and can be used to pass small pieces of data between tasks.
+
+## XCom Push
+The **XCom push** mechanism is used to send data from one task to another. Data is pushed into the XCom table in Airflow's metadata database. You can push data using the `xcom_push` method or by returning a value from a Python task:
+
+#### Using `xcom_push` Method
+```python
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from datetime import datetime
+
+def push_data(ti):
+    ti.xcom_push(key='message', value='Hello from XCom!')
+
+dag = DAG(
+    'xcom_example',
+    schedule_interval=None,
+    start_date=datetime(2024, 3, 20),
+    catchup=False
+)
+
+push_task = PythonOperator(
+    task_id='push_task',
+    python_callable=push_data,
+    provide_context=True,
+    dag=dag
+)
+```
+
+#### Using the Return Value of a Python Task
+```python
+def push_data():
+    return "Hello from XCom!"
+
+push_task = PythonOperator(
+    task_id='push_task',
+    python_callable=push_data,
+    dag=dag
+)
+```
+In this case, Airflow automatically pushes the returned value to XCom with the key `return`.
+
+## XCom Pull
+The **XCom pull** mechanism retrieves data stored in XCom. This allows downstream tasks to access data pushed by upstream tasks. You can pull data using the `xcom_pull` method:
+
+#### Using `xcom_pull` in a Python Task
+```python
+def pull_data(ti):
+    message = ti.xcom_pull(task_ids='push_task', key='message')
+    print(f"Received message: {message}")
+
+pull_task = PythonOperator(
+    task_id='pull_task',
+    python_callable=pull_data,
+    provide_context=True,
+    dag=dag
+)
+```
+
+#### Using `xcom_pull` with Default Key (`return`)
+If data was pushed using the return value of a Python function, it can be pulled as follows:
+```python
+message = ti.xcom_pull(task_ids='push_task', key='return')
+```
+
+## XCom Use Cases
+- **Data Sharing Between Tasks**: Tasks can exchange values without using external storage.
+- **Dynamic Task Execution**: The result of one task can determine the behavior of another.
+- **Triggering Conditional Logic**: Use XCom values to control the execution of downstream tasks.
+
+## Considerations
+- XCom is stored in the Airflow database and should be used for small data values.
+- For larger data, it's recommended to use cloud storage solutions or databases.
+- XCom values are serialized as JSON, so only serializable objects can be stored.
+
+For example, if the first task generates a file, the second task can upload that file to an S3 bucket. In our current setup, we have the 'replace' parameter set to true, which means that each time we run this DAG, the new file overwrites the previous one in S3. However, if this DAG runs multiple times a day, the business may want to keep a history of the exchange rate files. Since the file name created in Task One is not automatically known to Task Two, we can use XCom to bridge this gap.
+
+In Task One, we use the XCom push feature to store the generated file name in Airflow’s metadata database. Then, in Task Two, we can retrieve that file name using the XCom pull feature, ensuring the correct file is uploaded to S3.
+
+It's important to note that XComs are intended for passing small amounts of data between tasks, such as file names, task metadata, dates, or single-value query results. For larger datasets, consider using a custom XCom backend or intermediary data storage solutions to manage the data more effectively.
