@@ -33,7 +33,6 @@ A containerization platform that allows developers to package applications and t
 * **Portable**: Containers can be easily moved between different environments, such as development, testing, and production.
 * **Repeatable**: Enables the same container image to be used multiple times, ensuring that deployments are predictable and reliable.
 
-
 # Lesson 2: Tasks, Operators, Parameters, Depedencies, Schedules, Providers & airflow.cfg
 
 ## airflow.cfg
@@ -47,21 +46,182 @@ Operators in Apache Airflow are the building blocks of tasks within a Directed A
 
 1. **Action Operators**: These operators execute a specific function or task. For instance:
    - **PythonOperator**: This operator allows you to execute Python functions as tasks. It is commonly used for running custom Python code, making it versatile for various data processing tasks.
+     ```python
+     from airflow import DAG
+     from airflow.operators.python import PythonOperator
+     from airflow.utils.dates import days_ago
+
+     def my_python_function():
+         print("Hello from PythonOperator!")
+
+     dag = DAG(
+         'example_dag',
+         default_args={'start_date': days_ago(1)},
+         schedule_interval='@daily',
+     )
+
+     python_task = PythonOperator(
+         task_id='run_my_python_function',
+         python_callable=my_python_function,
+         dag=dag,
+     )
+     ```
    - **BashOperator**: This operator is used to execute bash commands or scripts. It is useful for tasks that require shell commands, such as file manipulation or executing scripts in a Unix-like environment.
+     ```python
+     from airflow import DAG
+     from airflow.operators.bash import BashOperator
+     from airflow.utils.dates import days_ago
+
+     dag = DAG(
+         'example_bash_dag',
+         default_args={'start_date': days_ago(1)},
+         schedule_interval='@daily',
+     )
+
+     bash_task = BashOperator(
+         task_id='run_bash_command',
+         bash_command='echo "Hello from BashOperator!"',
+         dag=dag,
+     )
+     ```
    - **Azure DataFactory Run Pipeline Operator**: This operator is used to execute Azure Data Factory pipelines.
+     ```python
+     from airflow import DAG
+     from airflow.providers.microsoft.azure.operators.data_factory import AzureDataFactoryRunPipelineOperator
+     from airflow.utils.dates import days_ago
+
+     dag = DAG(
+         'example_azure_dag',
+         default_args={'start_date': days_ago(1)},
+         schedule_interval='@daily',
+     )
+
+     azure_pipeline_task = AzureDataFactoryRunPipelineOperator(
+         task_id='run_azure_pipeline',
+         pipeline_name='my_pipeline',
+         azure_data_factory_conn_id='my_azure_data_factory',
+         dag=dag,
+     )
+     ```
 
 2. **Transfer Operators**: These operators are used for moving data from one place to another. An excellent example of this is:
    - **S3ToRedshiftOperator**: It moves data from Amazon S3 to Amazon Redshift.
+     ```python
+     from airflow import DAG
+     from airflow.providers.amazon.aws.transfers.s3_to_redshift import S3ToRedshiftOperator
+     from airflow.utils.dates import days_ago
+
+     dag = DAG(
+         's3_to_redshift_dag',
+         default_args={'start_date': days_ago(1)},
+         schedule_interval='@daily',
+     )
+
+     transfer_task = S3ToRedshiftOperator(
+         task_id='transfer_s3_to_redshift',
+         schema='public',
+         table='my_table',
+         s3_bucket='my_bucket',
+         s3_key='data/my_data.csv',
+         copy_options=['CSV'],
+         aws_conn_id='aws_default',
+         redshift_conn_id='redshift_default',
+         dag=dag,
+     )
+     ```
 
 3. **Sensor Operators**: These operators wait for a specific condition to be met before triggering the subsequent tasks in the workflow. Examples include:
    - **S3KeySensor**: This sensor waits for one or more files to be created in an S3 bucket.
+     ```python
+     from airflow import DAG
+     from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
+     from airflow.utils.dates import days_ago
+
+     dag = DAG(
+         's3_sensor_dag',
+         default_args={'start_date': days_ago(1)},
+         schedule_interval='@daily',
+     )
+
+     wait_for_file = S3KeySensor(
+         task_id='wait_for_s3_file',
+         bucket_name='my_bucket',
+         bucket_key='data/my_data.csv',
+         aws_conn_id='aws_default',
+         poke_interval=10,
+         timeout=60 * 60 * 5,
+         soft_fail=True,
+         dag=dag,
+     )
+     ```
    - **AWS Redshift Cluster Sensor**: This sensor waits for a Redshift cluster to reach a specific status.
 
 4. **DummyOperator**: This operator does nothing and is often used as a placeholder in a DAG. It can help in structuring workflows and managing dependencies without performing any actual work.
+   ```python
+   from airflow import DAG
+   from airflow.operators.dummy import DummyOperator
+   from airflow.utils.dates import days_ago
+
+   dag = DAG(
+       'dummy_operator_dag',
+       default_args={'start_date': days_ago(1)},
+       schedule_interval='@daily',
+   )
+
+   start_task = DummyOperator(
+       task_id='start',
+       dag=dag,
+   )
+   ```
 
 5. **BranchPythonOperator**: This operator allows for branching logic in workflows. It can be used to decide which path to take in a DAG based on certain conditions, enabling dynamic task execution.
+   ```python
+   from airflow import DAG
+   from airflow.operators.python import BranchPythonOperator
+   from airflow.utils.dates import days_ago
+
+   def choose_branch():
+       return 'branch_a'  # Logic to choose the branch
+
+   dag = DAG(
+       'branch_operator_dag',
+       default_args={'start_date': days_ago(1)},
+       schedule_interval='@daily',
+   )
+
+   branching_task = BranchPythonOperator(
+       task_id='branching_task',
+       python_callable=choose_branch,
+       dag=dag,
+   )
+   ```
 
 6. **SubDagOperator**: This operator allows you to define a sub-DAG within a parent DAG. It is useful for organizing complex workflows into smaller, manageable pieces.
+   ```python
+   from airflow import DAG
+   from airflow.operators.subdag import SubDagOperator
+   from airflow.utils.dates import days_ago
+
+   def subdag(parent_dag_name, child_dag_name, args):
+       dag_subdag = DAG(
+           dag_id=child_dag_name,
+           default_args=args,
+           schedule_interval='@daily',
+       )
+       # Define tasks for the subdag here
+       return dag_subdag
+
+   dag = DAG(
+       'subdag_operator_dag',
+       default_args={'start_date': days_ago(1)},
+       schedule_interval='@daily',
+   )
+
+   subdag_task = SubDagOperator(
+       task_id='subdag_task',
+       subdag=subdag('subdag_operator_dag', 'subdag_task', {'start_date': days_ago(1)}),
+       dag=dag,
+   )
 
 ## Operators vs Tasks
 An operator can be viewed as a blueprint or design template, while tasks are the concrete implementations derived from that blueprint. In terms of Python or object-oriented programming, an operator represents a class, and tasks are instances (or objects) created from that class.
@@ -69,13 +229,43 @@ An operator can be viewed as a blueprint or design template, while tasks are the
 ## Dependencies in Airflow
 In Apache Airflow, managing task dependencies is crucial for ensuring that tasks are executed in the correct order. Here are some methods to define dependencies:
 
-1. **Bitwise Operators**: You can use bitwise operators (`&` for "and", `|` for "or") to define dependencies between tasks in a more concise manner. For example, `task1 >> task2` can be expressed as `task1.set_downstream(task2)`.
+1. **Bitwise Operators**: You can use bitwise operators (`&` for "and", `|` for "or") to define dependencies between tasks in a more concise manner. For example, `task1 >> task2` can be expressed as `task1.set_downstream(task2)`. 
+   - **Example**: 
+     ```python
+     task1 >> task2  # Using bitwise operator
+     task1.set_downstream(task2)  # Using set_downstream method
+     ```
 
 2. **Set Upstream and Set Downstream Methods**: The `set_upstream()` and `set_downstream()` methods allow you to explicitly define the order of task execution. For instance, `task1.set_downstream(task2)` ensures that `task2` runs after `task1`.
+   - **Example**: 
+     ```python
+     task2.set_upstream(task1)  # Ensures task1 runs before task2
+     ```
 
 3. **Chain Function**: The `chain()` function from the `airflow.utils.dag` module provides a convenient way to set multiple dependencies at once. For example, `chain(task1, task2, task3)` sets `task1` to run before `task2`, which in turn runs before `task3`.
+   - **Example**: 
+     ```python
+     from airflow.utils.dag import chain
+     chain(task1, task2, task3)  # Sets task1 -> task2 -> task3
+     ```
 
 4. **TaskFlow API**: The TaskFlow API simplifies the creation of tasks and their dependencies using Python decorators. By using the `@dag` and `@task` decorators, you can define a DAG and its tasks in a more intuitive way, automatically managing dependencies based on the function calls.
+   - **Example**: 
+     ```python
+     from airflow.decorators import dag, task
+
+     @dag(schedule_interval='@daily', start_date=days_ago(1))
+     def my_dag():
+         @task
+         def task1():
+             pass
+
+         @task
+         def task2():
+             pass
+
+         task1() >> task2()  # Automatically manages dependencies
+     ```
 
 # Variables
 Variables are small storage containers for values that can be reused throughout tasks. They are essentially key-value pairs, where the variable name holds a specific value.
@@ -116,6 +306,66 @@ Example: The first task employs the S3KeySensor, which waits for a file to appea
 By default, sensors work in 'poke' mode, which worker slot continuously allocated, even if the task is inactive or in sleep mode. Schedule allow worker slot at fixed interval. More worker slot means higher cost
 
 **`Deferrable operators`** are designed to suspend their execution and completely free up the worker slot when they need to wait for a condition to be met. While in a suspended or deferred state, they do not occupy a worker slot, allowing for more efficient resource utilization. For instance, if you have 100 sensors, each would typically occupy a worker slot, leading to a one-to-one mapping. However, with deferrable operators, a single trigger can manage multiple sensors asynchronously, efficiently handling up to 100 sensors simultaneously without consuming individual worker slots for each one.
+
+
+```python
+from airflow import DAG
+from airflow.providers.common.sql.sensors.sql import SqlSensor
+from airflow.providers.common.sql.triggers.sql import SqlTrigger
+from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.providers.common.sql.sensors.sql import SqlSensorAsync
+from datetime import datetime, timedelta
+
+# Define default_args
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'start_date': datetime(2024, 3, 20),
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
+
+# Define DAG
+dag = DAG(
+    'deferrable_operator_example',
+    default_args=default_args,
+    schedule_interval=None,
+    catchup=False
+)
+
+# Normal SQL Sensor (Blocking Worker Slot)
+sql_sensor = SqlSensor(
+    task_id='blocking_sql_sensor',
+    conn_id='postgres_default',
+    sql='SELECT COUNT(*) FROM my_table WHERE status = "ready";',
+    mode='poke',  # Continuously runs, occupying a worker slot
+    poke_interval=10,  # Checks every 10 seconds
+    timeout=600,  # Timeout after 10 minutes
+    dag=dag
+)
+
+# Deferrable SQL Sensor (Non-blocking)
+async_sql_sensor = SqlSensorAsync(
+    task_id='non_blocking_sql_sensor',
+    conn_id='postgres_default',
+    sql='SELECT COUNT(*) FROM my_table WHERE status = "ready";',
+    mode='reschedule',  # Frees worker slot while waiting
+    poke_interval=10,
+    timeout=600,
+    dag=dag
+)
+
+# Postgres Task (Executed after condition is met)
+process_data = PostgresOperator(
+    task_id='process_data',
+    postgres_conn_id='postgres_default',
+    sql="UPDATE my_table SET processed = TRUE WHERE status = 'ready';",
+    dag=dag
+)
+
+# Define task dependencies
+async_sql_sensor >> process_data
+```
 
 # Trigger vs Sensors
 * **Sensors** are a type of operator that continuously check for a certain condition to be met before allowing downstream tasks to proceed. They are typically used for scenarios like waiting for a file to appear in a specific location, a database record to be updated, or an external API to become available. Sensors operate in 'poke' mode by default, which means they periodically check the condition at defined intervals (poke_interval) until the condition is satisfied or a timeout occurs. This can lead to inefficient resource usage, as each sensor occupies a worker slot while it is active.
