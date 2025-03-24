@@ -1,0 +1,140 @@
+[2025-03-24T02:59:03.917+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:03.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T02:59:03.921+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:03.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:04.046+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:04.024+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T02:59:04.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:04.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.271 seconds
+[2025-03-24T02:59:34.586+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:34.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T02:59:34.592+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:34.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:34.657+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:34.639+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T02:59:34.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T02:59:34.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.194 seconds
+[2025-03-24T03:00:04.985+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:04.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:00:04.992+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:04.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:05.034+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:05.025+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:00:05.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:05.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.126 seconds
+[2025-03-24T03:00:36.232+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:36.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:00:36.236+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:36.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:36.279+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:36.266+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:00:36.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:00:36.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.138 seconds
+[2025-03-24T03:03:38.930+0000] {processor.py:186} INFO - Started process (PID=447) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:03:38.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:03:39.002+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:39.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:03:39.059+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:39.041+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:03:39.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:03:39.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.440 seconds
+[2025-03-24T03:04:09.530+0000] {processor.py:186} INFO - Started process (PID=456) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:09.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:04:09.536+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:09.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:09.577+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:09.567+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:04:09.582+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:09.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.158 seconds
+[2025-03-24T03:04:40.975+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:40.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:04:40.981+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:40.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:41.020+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:41.010+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:04:41.026+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:04:41.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.118 seconds
+[2025-03-24T03:05:11.310+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:11.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:05:11.314+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:11.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:11.364+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:11.351+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:05:11.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:11.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.153 seconds
+[2025-03-24T03:05:42.885+0000] {processor.py:186} INFO - Started process (PID=483) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:42.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:05:42.892+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:42.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:42.958+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:42.943+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:05:42.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:43.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.230 seconds
+[2025-03-24T03:05:54.547+0000] {processor.py:186} INFO - Started process (PID=490) to work on /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:54.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.2data_aware_consumer.py for tasks to queue
+[2025-03-24T03:05:54.553+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:54.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:54.657+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:54.642+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.2data_aware_consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.2data_aware_consumer.py", line 4, in <module>
+    from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
+ImportError: cannot import name 'SnowflakeOperator' from 'airflow.providers.snowflake.operators.snowflake' (/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/operators/snowflake.py)
+[2025-03-24T03:05:54.664+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.2data_aware_consumer.py
+[2025-03-24T03:05:54.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.2data_aware_consumer.py took 0.200 seconds

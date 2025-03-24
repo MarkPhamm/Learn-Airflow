@@ -1,0 +1,63 @@
+[2025-03-24T02:59:09.754+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:09.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T02:59:09.769+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:09.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:09.899+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:10.177+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:10.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:59:10.215+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:10.214+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:59:10.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.665 seconds
+[2025-03-24T02:59:41.754+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:41.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T02:59:41.758+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:41.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:41.799+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T02:59:41.845+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:41.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:59:41.896+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:41.895+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:59:42.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.316 seconds
+[2025-03-24T03:00:13.093+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:13.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:00:13.097+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:13.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:13.177+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:13.244+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:13.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:00:13.290+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:13.289+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:00:13.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.337 seconds
+[2025-03-24T03:00:43.851+0000] {processor.py:186} INFO - Started process (PID=441) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:43.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:00:43.856+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:43.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:43.891+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:00:43.934+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:43.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:00:43.976+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:43.975+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:00:44.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.237 seconds
+[2025-03-24T03:03:44.357+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:03:44.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:03:44.360+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:44.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:03:44.400+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:03:44.445+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:44.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:03:44.496+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:44.496+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:03:44.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.232 seconds
+[2025-03-24T03:04:15.779+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:15.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:04:15.784+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:15.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:15.829+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:15.891+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:15.891+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:04:15.944+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:15.944+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:04:16.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.316 seconds
+[2025-03-24T03:04:46.470+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:46.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:04:46.478+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:46.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:46.535+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:04:46.598+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:46.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:04:46.657+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:46.656+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:04:46.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.365 seconds
+[2025-03-24T03:05:18.755+0000] {processor.py:186} INFO - Started process (PID=477) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:18.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:05:18.761+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:18.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:18.817+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:18.886+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:18.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:05:18.975+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:18.974+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:05:19.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.398 seconds
+[2025-03-24T03:05:50.514+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:50.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.deferable_operators.py for tasks to queue
+[2025-03-24T03:05:50.519+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:50.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:50.573+0000] {processor.py:925} INFO - DAG(s) 's3_to_snowflake_dag' retrieved from /opt/airflow/dags/5.deferable_operators.py
+[2025-03-24T03:05:50.644+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:50.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:05:50.701+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:50.700+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_snowflake_dag to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:05:50.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.deferable_operators.py took 0.350 seconds

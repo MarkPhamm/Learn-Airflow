@@ -1,0 +1,196 @@
+[2025-03-24T02:39:23.108+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:23.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:39:23.115+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:23.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:23.189+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:23.450+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:23.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:39:23.487+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:23.486+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:39:23.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.484 seconds
+[2025-03-24T02:39:54.875+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:54.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:39:54.881+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:54.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:54.949+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:39:55.049+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:55.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:39:55.130+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:55.129+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:39:55.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.403 seconds
+[2025-03-24T02:40:25.660+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:25.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:40:25.667+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:25.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:25.764+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:25.835+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:25.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:40:25.896+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:25.895+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:40:25.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.333 seconds
+[2025-03-24T02:40:56.537+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:56.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:40:56.542+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:56.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:56.603+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:40:56.658+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:56.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:40:56.712+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:56.711+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:40:56.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.339 seconds
+[2025-03-24T02:41:27.388+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:27.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:41:27.393+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:27.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:27.483+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:27.546+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:27.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:41:27.593+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:27.593+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:41:27.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.308 seconds
+[2025-03-24T02:41:58.552+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:58.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:41:58.559+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:58.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:58.662+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:41:58.759+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:58.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:41:58.836+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:58.835+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:41:58.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.442 seconds
+[2025-03-24T02:42:29.971+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:42:29.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:42:29.987+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:29.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:42:30.057+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:42:30.112+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:30.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:42:30.169+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:30.168+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:42:30.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.309 seconds
+[2025-03-24T02:43:01.239+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:01.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:43:01.250+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:01.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:01.369+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:01.450+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:01.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:43:01.508+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:01.507+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:43:01.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.450 seconds
+[2025-03-24T02:43:31.965+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:31.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:43:31.972+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:31.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:32.039+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:43:32.087+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:32.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:43:32.130+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:32.130+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:43:32.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.316 seconds
+[2025-03-24T02:44:03.354+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:03.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:44:03.362+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:03.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:03.445+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:03.513+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:03.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:44:03.633+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:03.633+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:44:03.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.388 seconds
+[2025-03-24T02:44:34.920+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:34.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:44:34.928+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:34.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:35.018+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:44:35.090+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:35.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:44:35.144+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:35.144+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:44:35.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.368 seconds
+[2025-03-24T02:45:06.173+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:06.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:45:06.179+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:06.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:06.275+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:06.350+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:06.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:45:06.412+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:06.412+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:45:06.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.382 seconds
+[2025-03-24T02:45:36.971+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:36.974+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:45:36.980+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:36.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:37.098+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:45:37.173+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:37.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:45:37.253+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:37.252+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:45:37.442+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.484 seconds
+[2025-03-24T02:46:07.844+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:07.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:46:07.860+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:07.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:07.973+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:08.042+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:08.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:46:08.108+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:08.107+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:46:08.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.459 seconds
+[2025-03-24T02:46:39.058+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:39.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:46:39.067+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:39.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:39.168+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:46:39.228+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:39.228+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:46:39.300+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:39.299+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:46:39.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.455 seconds
+[2025-03-24T02:47:10.656+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:10.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:47:10.663+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:10.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:10.761+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:10.838+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:10.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:47:10.915+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:10.914+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:47:11.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.398 seconds
+[2025-03-24T02:47:41.711+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:41.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:47:41.718+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:41.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:41.782+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:47:41.839+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:41.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:47:41.906+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:41.905+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:47:42.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.312 seconds
+[2025-03-24T02:48:15.648+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:15.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:48:15.656+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:15.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:15.735+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:15.793+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:15.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:48:15.848+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:15.848+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:48:15.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.347 seconds
+[2025-03-24T02:48:49.950+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:49.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:48:49.954+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:49.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:50.016+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:48:50.069+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:50.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:48:50.118+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:50.117+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:48:50.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.280 seconds
+[2025-03-24T02:49:20.688+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:20.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:49:20.696+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:20.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:20.786+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:20.867+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:20.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:49:20.937+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:20.937+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:49:21.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.390 seconds
+[2025-03-24T02:49:51.549+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:51.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:49:51.555+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:51.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:51.663+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:49:51.722+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:51.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:49:51.770+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:51.770+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:49:51.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.378 seconds
+[2025-03-24T02:50:22.879+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:22.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:50:22.883+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:22.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:22.973+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:23.051+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:23.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:50:23.124+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:23.124+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:50:23.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.423 seconds
+[2025-03-24T02:50:54.008+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:54.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:50:54.015+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:54.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:54.093+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:50:54.164+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:54.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:50:54.215+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:54.214+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:50:54.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.341 seconds
+[2025-03-24T02:51:24.856+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:24.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:51:24.864+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:24.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:24.944+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:25.015+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:25.015+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:51:25.070+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:25.069+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:51:25.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.343 seconds
+[2025-03-24T02:51:56.130+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:56.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:51:56.136+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:56.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:56.188+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:51:56.231+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:56.231+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:51:56.278+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:56.278+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:51:56.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.271 seconds
+[2025-03-24T02:52:26.805+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:26.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:52:26.812+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:26.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:26.879+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:26.935+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:26.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:52:26.999+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:26.998+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:52:27.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.343 seconds
+[2025-03-24T02:52:57.534+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:57.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:52:57.542+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:57.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:57.619+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:52:57.693+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:57.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:52:57.760+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:57.760+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:52:57.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.330 seconds
+[2025-03-24T02:53:29.103+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/3conections.py
+[2025-03-24T02:53:29.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/3conections.py for tasks to queue
+[2025-03-24T02:53:29.109+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:29.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/3conections.py
+[2025-03-24T02:53:29.167+0000] {processor.py:925} INFO - DAG(s) 'connections_demo' retrieved from /opt/airflow/dags/3conections.py
+[2025-03-24T02:53:29.223+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:29.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:53:29.268+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:29.267+0000] {dag.py:4180} INFO - Setting next_dagrun for connections_demo to 2025-03-23 21:00:00+00:00, run_after=2025-03-24 21:00:00+00:00
+[2025-03-24T02:53:29.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/3conections.py took 0.320 seconds

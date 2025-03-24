@@ -1,0 +1,226 @@
+[2025-03-24T02:38:57.542+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:38:57.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:38:57.548+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:57.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:38:58.609+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:38:58.977+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:58.976+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:cust_s3_trans
+[2025-03-24T02:38:59.029+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.028+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:cust_s3_trans
+[2025-03-24T02:38:59.074+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.074+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:cust_s3_trans
+[2025-03-24T02:38:59.148+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.147+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:cust_s3_trans
+[2025-03-24T02:38:59.212+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.212+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:cust_s3_trans
+[2025-03-24T02:38:59.266+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.265+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:cust_s3_trans
+[2025-03-24T02:38:59.308+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.307+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:cust_s3_trans
+[2025-03-24T02:38:59.309+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:38:59.337+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.336+0000] {dag.py:3262} INFO - Creating ORM DAG for cust_s3_trans
+[2025-03-24T02:38:59.364+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:38:59.360+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:38:59.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 1.939 seconds
+[2025-03-24T02:39:29.999+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:39:30.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:39:30.005+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:30.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:39:30.059+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:39:30.116+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:30.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:39:30.178+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:39:30.177+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:39:30.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.371 seconds
+[2025-03-24T02:40:01.306+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:01.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:40:01.312+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:01.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:01.359+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:01.411+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:01.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:40:01.470+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:01.469+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:40:01.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.329 seconds
+[2025-03-24T02:40:32.616+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:32.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:40:32.622+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:32.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:32.664+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:40:32.720+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:32.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:40:32.781+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:40:32.780+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:40:32.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.352 seconds
+[2025-03-24T02:41:03.433+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:03.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:41:03.437+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:03.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:03.470+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:03.511+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:03.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:41:03.551+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:03.551+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:41:03.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.270 seconds
+[2025-03-24T02:41:34.234+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:34.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:41:34.238+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:34.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:34.279+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:41:34.317+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:34.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:41:34.354+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:41:34.354+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:41:34.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.185 seconds
+[2025-03-24T02:42:04.782+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:04.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:42:04.787+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:04.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:04.833+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:04.886+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:04.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:42:05.084+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:05.084+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:42:05.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.455 seconds
+[2025-03-24T02:42:35.580+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:35.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:42:35.586+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:35.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:35.627+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:42:35.712+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:35.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:42:35.763+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:42:35.762+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:42:35.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.316 seconds
+[2025-03-24T02:43:07.000+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:07.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:43:07.009+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:07.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:07.089+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:07.186+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:07.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:43:07.251+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:07.250+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:43:07.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.444 seconds
+[2025-03-24T02:43:37.950+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:37.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:43:37.959+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:37.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:37.995+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:43:38.048+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:38.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:43:38.108+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:43:38.107+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:43:38.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.328 seconds
+[2025-03-24T02:44:08.710+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:08.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:44:08.716+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:08.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:08.774+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:08.817+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:08.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:44:08.858+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:08.857+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:44:08.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.269 seconds
+[2025-03-24T02:44:39.524+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:39.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:44:39.533+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:39.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:39.605+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:44:39.675+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:39.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:44:39.723+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:44:39.723+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:44:39.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.321 seconds
+[2025-03-24T02:45:11.511+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:11.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:45:11.518+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:11.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:11.572+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:11.646+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:11.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:45:11.720+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:11.719+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:45:11.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.336 seconds
+[2025-03-24T02:45:42.834+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:42.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:45:42.843+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:42.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:42.930+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:45:43.013+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:43.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:45:43.105+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:45:43.105+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:45:43.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.448 seconds
+[2025-03-24T02:46:13.799+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:13.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:46:13.809+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:13.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:13.879+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:13.959+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:13.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:46:14.042+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:14.042+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:46:14.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.452 seconds
+[2025-03-24T02:46:44.822+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:44.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:46:44.832+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:44.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:44.908+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:46:44.974+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:44.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:46:45.055+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:46:45.053+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:46:45.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.440 seconds
+[2025-03-24T02:47:16.272+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:16.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:47:16.279+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:16.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:16.338+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:16.426+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:16.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:47:16.505+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:16.504+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:47:16.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.455 seconds
+[2025-03-24T02:47:47.180+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:47.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:47:47.188+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:47.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:47.236+0000] {processor.py:925} INFO - DAG(s) 'cust_s3_trans' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:47:47.292+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:47.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:47:47.331+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:47:47.331+0000] {dag.py:4180} INFO - Setting next_dagrun for cust_s3_trans to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:47:47.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.361 seconds
+[2025-03-24T02:48:11.466+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:11.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:48:11.474+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:11.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:11.554+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:11.846+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:11.844+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:hooks_demo
+[2025-03-24T02:48:11.925+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:11.924+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:hooks_demo
+[2025-03-24T02:48:12.000+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:11.999+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:hooks_demo
+[2025-03-24T02:48:12.106+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.105+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:hooks_demo
+[2025-03-24T02:48:12.180+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.179+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:hooks_demo
+[2025-03-24T02:48:12.246+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.245+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:hooks_demo
+[2025-03-24T02:48:12.310+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.309+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:hooks_demo
+[2025-03-24T02:48:12.311+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:48:12.348+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.348+0000] {dag.py:3262} INFO - Creating ORM DAG for hooks_demo
+[2025-03-24T02:48:12.371+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:12.370+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:48:12.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 1.034 seconds
+[2025-03-24T02:48:44.642+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:44.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:48:44.646+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:44.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:44.702+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:48:45.092+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:45.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:48:45.614+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:48:45.613+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:48:46.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 1.412 seconds
+[2025-03-24T02:49:17.396+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:17.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:49:17.400+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:17.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:17.436+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:17.491+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:17.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:49:17.557+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:17.556+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:49:17.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.256 seconds
+[2025-03-24T02:49:48.142+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:48.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:49:48.145+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:48.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:48.205+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:49:48.269+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:48.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:49:48.322+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:49:48.321+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:49:48.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.326 seconds
+[2025-03-24T02:50:19.103+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:19.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:50:19.110+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:19.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:19.181+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:19.265+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:19.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:50:19.324+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:19.324+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:50:19.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.410 seconds
+[2025-03-24T02:50:50.524+0000] {processor.py:186} INFO - Started process (PID=328) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:50.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:50:50.532+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:50.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:50.601+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:50:50.679+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:50.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:50:50.750+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:50:50.749+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:50:50.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.350 seconds
+[2025-03-24T02:51:21.538+0000] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:21.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:51:21.552+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:21.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:21.596+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:21.650+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:21.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:51:21.707+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:21.704+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:51:21.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.287 seconds
+[2025-03-24T02:51:52.797+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:52.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:51:52.803+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:52.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:52.868+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:51:52.909+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:52.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:51:52.965+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:51:52.965+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:51:53.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.303 seconds
+[2025-03-24T02:52:23.551+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:23.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:52:23.558+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:23.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:23.601+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:23.663+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:23.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:52:23.721+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:23.721+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:52:23.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.305 seconds
+[2025-03-24T02:52:54.862+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:54.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:52:54.868+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:54.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:54.911+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:52:54.971+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:54.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:52:55.044+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:52:55.043+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:52:55.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.327 seconds
+[2025-03-24T02:53:25.761+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:25.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:53:25.767+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:25.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:25.816+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:25.889+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:25.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:53:25.958+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:25.958+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:53:26.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.311 seconds
+[2025-03-24T02:53:57.254+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:57.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/7hooks.py for tasks to queue
+[2025-03-24T02:53:57.262+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:57.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:57.312+0000] {processor.py:925} INFO - DAG(s) 'hooks_demo' retrieved from /opt/airflow/dags/7hooks.py
+[2025-03-24T02:53:57.366+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:57.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:53:57.409+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:53:57.409+0000] {dag.py:4180} INFO - Setting next_dagrun for hooks_demo to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:53:57.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/7hooks.py took 0.292 seconds

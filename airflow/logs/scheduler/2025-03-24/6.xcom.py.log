@@ -1,0 +1,63 @@
+[2025-03-24T02:59:07.630+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:07.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T02:59:07.638+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:07.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:07.748+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:08.022+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:08.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:59:08.059+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:08.059+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:59:08.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.709 seconds
+[2025-03-24T02:59:38.864+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:38.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T02:59:38.874+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:38.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:38.922+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T02:59:38.966+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:38.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T02:59:39.024+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:39.023+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T02:59:39.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.292 seconds
+[2025-03-24T03:00:10.181+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:10.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:00:10.187+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:10.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:10.252+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:10.317+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:10.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:00:10.369+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:10.369+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:00:10.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.302 seconds
+[2025-03-24T03:00:41.212+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:41.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:00:41.216+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:41.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:41.252+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:00:41.290+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:41.289+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:00:41.324+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:41.324+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:00:41.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.245 seconds
+[2025-03-24T03:03:42.562+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:03:42.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:03:42.568+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:42.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:03:42.647+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:03:42.723+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:42.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:03:42.828+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:42.827+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:03:42.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.423 seconds
+[2025-03-24T03:04:14.070+0000] {processor.py:186} INFO - Started process (PID=458) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:14.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:04:14.075+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:14.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:14.152+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:14.227+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:14.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:04:14.278+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:14.277+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:04:14.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.337 seconds
+[2025-03-24T03:04:44.605+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:44.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:04:44.611+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:44.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:44.681+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:04:44.760+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:44.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:04:44.887+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:44.887+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:04:45.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.423 seconds
+[2025-03-24T03:05:16.803+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:16.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:05:16.816+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:16.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:16.895+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:16.979+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:16.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:05:17.049+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:17.048+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:05:17.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.384 seconds
+[2025-03-24T03:05:48.052+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:48.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/6.xcom.py for tasks to queue
+[2025-03-24T03:05:48.057+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:48.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:48.117+0000] {processor.py:925} INFO - DAG(s) 'xrate_to_s3' retrieved from /opt/airflow/dags/6.xcom.py
+[2025-03-24T03:05:48.188+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:48.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T03:05:48.271+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:48.271+0000] {dag.py:4180} INFO - Setting next_dagrun for xrate_to_s3 to 2025-03-23 23:00:00+00:00, run_after=2025-03-24 23:00:00+00:00
+[2025-03-24T03:05:48.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/6.xcom.py took 0.350 seconds

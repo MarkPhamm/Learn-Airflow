@@ -1,0 +1,153 @@
+[2025-03-24T02:59:02.220+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:02.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T02:59:02.225+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:02.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:02.358+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:02.343+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T02:59:02.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:02.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.235 seconds
+[2025-03-24T02:59:33.002+0000] {processor.py:186} INFO - Started process (PID=419) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:33.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T02:59:33.007+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:33.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:33.133+0000] {logging_mixin.py:190} INFO - [2025-03-24T02:59:33.114+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T02:59:33.141+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T02:59:33.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.241 seconds
+[2025-03-24T03:00:03.616+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:03.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:00:03.622+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:03.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:03.736+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:03.723+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:00:03.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:03.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.237 seconds
+[2025-03-24T03:00:34.648+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:34.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:00:34.654+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:34.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:34.750+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:00:34.739+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:00:34.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:00:34.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.224 seconds
+[2025-03-24T03:03:36.759+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:03:36.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:03:36.768+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:36.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:03:36.892+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:03:36.875+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:03:36.899+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:03:36.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.244 seconds
+[2025-03-24T03:04:07.296+0000] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:07.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:04:07.303+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:07.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:07.393+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:07.381+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:04:07.398+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:07.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.178 seconds
+[2025-03-24T03:04:38.041+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:38.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:04:38.046+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:38.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:38.119+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:04:38.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:04:38.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:04:38.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.152 seconds
+[2025-03-24T03:05:08.629+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:08.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:05:08.634+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:08.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:08.714+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:08.704+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:05:08.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:08.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.242 seconds
+[2025-03-24T03:05:39.880+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:39.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/8.1data_aware_producer.py for tasks to queue
+[2025-03-24T03:05:39.887+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:39.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:40.043+0000] {logging_mixin.py:190} INFO - [2025-03-24T03:05:40.025+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/8.1data_aware_producer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/8.1data_aware_producer.py", line 16, in <module>
+    endpoint=Variable.get("web_api_key"),  # Getting the API endpoint from Airflow variables
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable web_api_key does not exist'
+[2025-03-24T03:05:40.048+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/8.1data_aware_producer.py
+[2025-03-24T03:05:40.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/8.1data_aware_producer.py took 0.296 seconds

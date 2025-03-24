@@ -456,3 +456,63 @@ For example, if the first task generates a file, the second task can upload that
 In Task One, we use the XCom push feature to store the generated file name in Airflow’s metadata database. Then, in Task Two, we can retrieve that file name using the XCom pull feature, ensuring the correct file is uploaded to S3.
 
 It's important to note that XComs are intended for passing small amounts of data between tasks, such as file names, task metadata, dates, or single-value query results. For larger datasets, consider using a custom XCom backend or intermediary data storage solutions to manage the data more effectively.
+
+# Hooks  
+Hooks are **pre-built Python classes** that simplify interactions with external systems and services.  
+
+For example, the **S3Hook** (part of the AWS provider package) provides methods to interact with S3:  
+- `create_bucket()`: Creates an Amazon S3 bucket  
+- `load_string()`: Uploads a string as a file in S3  
+- `delete_objects()`: Deletes an S3 file  
+
+## Why Use Hooks?  
+Hooks abstract low-level Python code, making it easier to interact with external services. Instead of writing complex logic, you can **import and use pre-built hooks** from Airflow’s provider packages.  
+
+## Hooks vs. Operators  
+Both are Python classes, but:  
+- **Hooks** handle low-level interactions with external services.  
+- **Operators** wrap around Hooks and provide task-level abstraction.  
+
+For example, an AWS operator may use the **S3Hook’s** `copy_object()` method internally.  
+
+## When to Use Hooks vs. Operators  
+- **Use an Operator** if one exists for your task.  
+- **Use a Hook** if no operator is available.  
+- **Write custom Python code** if neither a hook nor an operator exists.  
+
+## Using Hooks in DAGs  
+Example: Transform an S3 file and re-upload it.  
+1. Read the file using `read_key()` from S3Hook  
+2. Apply transformations  
+3. Upload it back using `load_string()`  
+
+Within the DAG, call the transformation function with the bucket name, source file, and target file.
+
+# Airflow Datasets   
+Datasets enable **data-aware scheduling**, allowing DAGs to trigger based on the availability of files or datasets instead of time-based scheduling.  
+
+A **dataset** is a logical representation of underlying data. You can create a dataset in Airflow by instantiating the `Dataset` class, using either:  
+- A **complete URI** (e.g., `s3://bucket/exchange_rates.csv`)  
+- A **descriptive string** (e.g., `"exchange_rates"`)  
+
+Airflow does not access or validate the data—datasets serve as identifiers for establishing **producer-consumer DAG relationships**.  
+
+## Benefits of Datasets  
+- **Cross-DAG dependencies**: Connect DAGs that rely on shared data.  
+- **Flexible scheduling**: Trigger DAGs dynamically when data is available.  
+- **Reduced Airflow costs**: Unlike sensors, datasets do not use worker slots.  
+
+## Producer and Consumer DAGs  
+A **Producer DAG** updates a dataset using the `outlets` parameter.  
+A **Consumer DAG** is scheduled based on dataset availability.  
+
+### Example  
+- **Producer DAG**: Ingests exchange rate data into an S3 bucket.  
+- **Consumer DAG**: Transforms the data and loads it into Snowflake when new data is available.  
+
+## Viewing Datasets in Airflow  
+- **Datasets Tab**: Shows dataset triggers and history.  
+- **DAG Dependencies View**: Visualizes cross-DAG relationships.  
+
+## Triggering a DAG Based on Multiple Datasets  
+A DAG can be scheduled based on **multiple producer DAGs or datasets** by listing them as comma-separated values. The DAG runs once all producer tasks complete successfully. 
